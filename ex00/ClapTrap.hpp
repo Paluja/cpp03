@@ -6,16 +6,17 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 16:55:06 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/02/25 17:10:45 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/02/26 11:33:43 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef _CLAPTRAP_HPP_
 #define _CLAPTRAP_HPP_
 
-typedef std::string string;
 
 #include <iostream>
+#include <string>
+typedef std::string string;
 
 class ClapTrap 
 {
@@ -24,7 +25,7 @@ class ClapTrap
         int hitPoints;
         int energyPoints;
         int attackDamage;
-    
+
     public:
         ClapTrap();
         ClapTrap(const string &name);
