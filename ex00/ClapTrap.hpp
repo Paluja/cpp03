@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 16:55:06 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/02/26 11:33:43 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/02/26 12:02:54 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,16 @@ class ClapTrap
         ClapTrap(const ClapTrap &cpy);
         ~ClapTrap();
         ClapTrap &operator=(const ClapTrap &cpy);
+        
+        std::string getName() const;
+        int getHitPoints() const;
+        int getEnergyPoints() const;
+        int getAttackDamage() const;
+        
         void attack(const string &target);
         void takeDamage(unsigned int amount);
         void beRepaired(unsigned int amount);
+        bool isFunctional();
 };
     
 #endif
