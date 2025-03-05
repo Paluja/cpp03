@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 16:55:06 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/02/26 14:25:50 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/02/27 20:22:44 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class ClapTrap
 
     public:
         ClapTrap();
-        ClapTrap(const string &name);
+        explicit ClapTrap(const string &name);
         ClapTrap(const ClapTrap &cpy);
         ~ClapTrap();
         ClapTrap &operator=(const ClapTrap &cpy);
