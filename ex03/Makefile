@@ -6,13 +6,13 @@
 #    By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/25 16:54:30 by pjimenez          #+#    #+#              #
-#    Updated: 2025/02/26 14:37:35 by pjimenez         ###   ########.fr        #
+#    Updated: 2025/03/12 12:12:51 by pjimenez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ex02
+NAME = ex03
 
-SRC = main.cpp ClapTrap.cpp FragTrap.cpp
+SRC = main.cpp ClapTrap.cpp FragTrap.cpp DiamondTrap.cpp ScavTrap.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

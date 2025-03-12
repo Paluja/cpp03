@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/26 12:28:16 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/03/05 15:10:30 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/03/12 12:10:20 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ class ScavTrap: virtual public ClapTrap
         ~ScavTrap();
         ScavTrap &operator=(const ScavTrap &cpy);
         
-        void attack(const string &target);
+        virtual void attack(const string &target);
         void guardGate();
 };
 
