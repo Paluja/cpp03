@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 20:01:30 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/02/27 19:42:45 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/05/14 12:14:32 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,11 @@ int main()
     
     r2.attack("C3PO");
     c3.takeDamage(5);
+    // c3.takeDamage(5);
     c3.beRepaired(5);
+    
+    c3.attack("R2D2");
+    
+    
     return (0);
 }
