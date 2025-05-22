@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/25 20:01:30 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/02/26 13:57:21 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/05/14 13:00:15 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int main()
     ClapTrap c3("C3PO");
 
     r2.attack("C3PO");
-    c3.takeDamage(5);
+    c3.takeDamage(0);
     c3.beRepaired(5);
     
     ScavTrap wE ("Wall-E");
@@ -27,10 +27,10 @@ int main()
 
     wE.guardGate();
     eV.attack("Wall-E");
-    wE.takeDamage(5);
+    wE.takeDamage(20);
     wE.beRepaired(5);
     wE.attack("Eve");
-    eV.takeDamage(3);
+    eV.takeDamage(20);
 
     return (0);
 }
