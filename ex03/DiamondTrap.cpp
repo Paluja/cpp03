@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 13:19:25 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/03/05 15:34:29 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/05/27 11:45:46 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ DiamondTrap::DiamondTrap(const std::string &name) :
     ClapTrap(name + "_clap_name"), ScavTrap(name + "_frag_name"), FragTrap(name+ "_frag_name")
 {
     this->name = name;
-    std::cout << "DiamondTrap constructor called" << std::endl;
+    std::cout << "DiamondTrap" << this->name <<"constructor called" << std::endl;
 }
 
 DiamondTrap::DiamondTrap(const DiamondTrap &cpy) : 
