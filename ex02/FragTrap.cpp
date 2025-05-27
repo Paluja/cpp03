@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/26 14:20:08 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/05/22 12:41:16 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/05/27 12:45:09 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ FragTrap::~FragTrap()
 {
     std::cout << "FragTrap  "<<this->name <<"  destructor called" << std::endl;
 }
+
+
 
 void FragTrap::highFivesGuys(void)
 {

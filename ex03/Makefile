@@ -6,7 +6,7 @@
 #    By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/25 16:54:30 by pjimenez          #+#    #+#              #
-#    Updated: 2025/05/27 11:51:41 by pjimenez         ###   ########.fr        #
+#    Updated: 2025/05/27 12:38:37 by pjimenez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = ex03
 
 SRC = main.cpp ClapTrap.cpp FragTrap.cpp DiamondTrap.cpp ScavTrap.cpp
 
-HEADERS = ClapTrap.hpp
+HEADERS = ClapTrap.hpp DiamondTrap.hpp FragTrap.hpp ScavTrap.hpp
 
 OBJ = $(SRC:.cpp=.o)
 

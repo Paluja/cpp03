@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 13:19:25 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/05/27 11:45:46 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/05/27 12:44:26 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,11 @@ DiamondTrap::DiamondTrap(const DiamondTrap &cpy) :
 DiamondTrap::~DiamondTrap()
 {
     std::cout << "DiamondTrap "<< this->name << " destructor called" << std::endl;
+}
+
+void DiamondTrap::attack(const std::string &target)
+{
+    ScavTrap::attack(target);
 }
 
 void DiamondTrap::whoAmI(void)

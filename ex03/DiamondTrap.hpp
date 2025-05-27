@@ -6,7 +6,7 @@
 /*   By: pjimenez <pjimenez@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 13:19:22 by pjimenez          #+#    #+#             */
-/*   Updated: 2025/03/05 15:34:12 by pjimenez         ###   ########.fr       */
+/*   Updated: 2025/05/27 12:43:38 by pjimenez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,8 @@ class DiamondTrap : public ScavTrap, public FragTrap
         DiamondTrap(const DiamondTrap &cpy);
         ~DiamondTrap();
         DiamondTrap &operator=(const DiamondTrap &cpy);
-
+        
+        void attack(const std::string &target);
         void whoAmI(void);
 };
 
